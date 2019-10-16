@@ -1,0 +1,9 @@
+body{
+    background-color: coral;
+    color: white;
+    min-height: 500px;
+}
+
+header{
+    background-image: linear-gradient(rgb(247, 123, 78),rgb(187, 147, 147));
+}
