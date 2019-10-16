@@ -12,12 +12,26 @@
 <header>
     <center>
         <h1>Cost Price Calculator</h1>
+       
+        <br>
+        <br>
     </center>
-    <form action="POST">
-        <div class="form">
-            {{form.cost_price.label}}
-        </div>
-    </form>    
+     
 </header>
+<center>
+    <form action="POST" action="">
+        <div class="form" >
+            {{form.cost_price.label}}
+            {{form.cost_price(class='myform')}}
+            {{form.discount.label}}
+            {{form.discount(class='myform')}}
+            {{form.mark_up.label()}}
+            {{form.mark_up(class='myform',value="jona")}}
+            {{form.update(class='btn mybtn')}}
+            
+    
+        </div>
+    </form>  
+</center>
 </body>
 </html>

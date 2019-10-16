@@ -1,9 +1,33 @@
 body{
-    background-color: coral;
+    background-color: rgb(100, 187, 30);
     color: white;
     min-height: 500px;
 }
 
 header{
-    background-image: linear-gradient(rgb(247, 123, 78),rgb(187, 147, 147));
+    background-image: linear-gradient(rgb(21, 110, 9),rgb(187, 147, 147));
+}
+.mybtn{
+background-color: white;
+color: rgb(73, 209, 19);
+}
+.mybtn:hover{
+   color: white;
+   background-color: rgb(65, 201, 11);
+   padding: 8px;
+   border: 1px solid white;
+   font-weight: bolder;
+}
+.form{
+    padding: 25px;
+    background-color: rgb(17, 99, 17);
+}
+.myform{
+    background-color: rgb(251, 253, 250);
+    border: rgb(100, 255, 80);
+    color: rgba(71, 122, 4, 0.952);
+}
+
+.myform:hover{
+    background-color: white;
 }

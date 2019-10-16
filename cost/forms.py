@@ -1,7 +1,9 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField,IntegerField
+from wtforms import StringField,IntegerField,SubmitField
 
 class CostForm(FlaskForm):
     cost_price=IntegerField("Cost Price")
-    Mark_Up=IntegerField("Mark Up")
+    mark_up=IntegerField("Mark Up")
+    discount=IntegerField("Discount")
+    update=SubmitField("CalculateThe Price")
     
