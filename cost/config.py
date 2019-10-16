@@ -2,3 +2,4 @@ class Config:
     SQLALCHEMY_DATABASE_URI='sqlite:///cost.db'
     DEBUG=True
     SQLALCHEMY_TRACK_MODIFICATIONS=False
+    SECRET_KEY='67ed2e7e108a76077df2c5c3'
