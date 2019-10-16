@@ -31,3 +31,13 @@ color: rgb(73, 209, 19);
 .myform:hover{
     background-color: white;
 }
+
+.flash{
+    color: white;
+    background-color: 
+}
+th{
+    width: 280px;
+    background-color: rgba(71, 122, 4, 0.952);
+    color: white;
+}
