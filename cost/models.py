@@ -1,6 +1,6 @@
 from cost import db
 
-class Product(db.Model):
+class Calculation(db.Model):
     id=db.Column(db.Integer(),primary_key=True)
    
     cost_price=db.Column(db.Integer,nullable=False)
